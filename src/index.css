@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+.primary {
+  @apply box-border text-white bg-primary-shd1 hover:bg-primary-hover border-2 border-transparent focus:border-primary-hover;
+}
+
+.secondary {
+  @apply box-border text-primary-shd1 border-2 border-primary-shd1 focus:border-primary hover:bg-grey-bg;
+}
+
+.form-text-input {
+  @apply placeholder-grey-shd1 w-19xl box-border text-sm px-4 py-2.5 border-grey-shd5 border rounded-md text-dark;
+}
+@tailwind utilities;
